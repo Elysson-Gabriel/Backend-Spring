@@ -10,4 +10,5 @@ public interface PessoaService {
 	PessoaModel editar(PessoaModel pessoa);
 	PessoaModel deletar(int id);
 	
+	List<PessoaModel> findPessoaByNome(String nome);
 }

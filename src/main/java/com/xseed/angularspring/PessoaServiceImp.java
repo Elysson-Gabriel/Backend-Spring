@@ -44,4 +44,10 @@ public class PessoaServiceImp implements PessoaService{
 		return pessoa;
 	}
 
+	@Override
+	public List<PessoaModel> findPessoaByNome(String nome) {
+		// TODO Auto-generated method stub
+		return repository.findPessoaByNome(nome);
+	}
+
 }
